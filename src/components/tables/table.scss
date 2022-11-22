@@ -1,0 +1,97 @@
+.table-header {
+    color: #a1a1aa;
+    display: flex;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 130%;
+    letter-spacing: 0.1px;
+    height: 42px;
+    gap: 24px;
+
+
+
+
+}
+
+
+
+.table-header > div {
+    width: 200px;
+    display: flex;
+    align-items: center;
+}
+
+.table-header div:nth-child(1) {
+    width: 120px;
+}
+
+.table-header div:nth-child(2) {
+    flex-grow: 1;
+}
+.table-title {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 130%;
+    letter-spacing: 0.1px;
+}
+
+img {
+    z-index: 2;
+}
+
+.icon-menu {
+    position: relative;
+
+}
+
+.wrap {
+    position: absolute;
+    display: flex;
+    width: auto;
+    border-radius: 6px;
+    z-index: 6;
+    top: 5px;
+    transform: translateX(-5px);
+    background-color: #414144;
+    padding: 6px;
+    gap: 5px;
+    display: none;
+}
+
+.icon-menu:hover  .wrap {
+    display: flex;
+}
+
+.table {
+    padding-left: 19px;
+
+}
+
+.input {
+    background: #202124;
+    border: 1px solid #414144;
+    border-radius: 6px;
+    width: 100%;
+    padding: 10px;
+    color: #71717A;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 130%;
+    letter-spacing: 0.1px;
+}
+
+.table-row {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 130%;
+    letter-spacing: 0.1px;
+    color: white;
+
+    border-top: 1px solid #414144;
+}

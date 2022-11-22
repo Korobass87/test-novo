@@ -1,0 +1,33 @@
+.navbar {
+    padding: 5px 0;
+    background: #27272A;
+    width: 234px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    min-height: calc(100vh - 88px);
+}
+
+.navbar-list {
+
+}
+
+.navbar-item {
+    display: flex;
+    color: #fff;
+    height: 32px;
+    gap: 17px;
+    align-items: center;
+    padding-left: 20px;
+
+    & h3 {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 16px;
+    }
+}
+.navbar-item--active {
+    background: #A1A1AA;
+}
